@@ -1,0 +1,42 @@
+{% extends "layout.html" %}
+{% block title %}search-results{% endblock %}
+{% block content %}
+    <div class="site-wrapper">
+	     	<div class="site-wrapper-inner">
+		        <div class="cover-container">
+		          
+		          <div class="masthead clearfix">
+		            <div class="inner">
+		              <h3 class="masthead-brand"></h3>
+		              <ul class="nav masthead-nav">
+		                <li class="active"><a href="index.html"> Home </a></li>
+		              </ul>
+		            </div>
+		          </div>
+
+		          <div class="inner cover">
+		            <h1 class="cover-heading" style="font-size: 80px; font-family: Lato !important;"><strong>gender</strong>-<strong>detect</strong></h1>
+		            <p class="lead">Determine gender from first name</p>
+						<div class="container">
+							 <div class="row">
+							        <!-- Card Projects -->
+						        <div class="col-md-6" style="margin-left: 55px">
+						            	<div class="card" style="background-color: #f8f8f8; color: #424242">
+						                	<div class="card-image" style="z-index:0;">
+							                    <img class="img-responsive" src="/static/images/man_img.png" width="100px" height="100px" style="margin: 20px 20px; float: left;" />
+						                	<div class="col-md-3">
+						                	<div class="info">
+												<p><strong>Name: </strong>{{ name }}</p><br>
+												<p><strong>Gender: </strong>{{ gender }}</p>
+						                	</div>
+						                	</div>
+						                	</div>
+							            </div>
+							        </div>
+							    </div>
+							</div>
+					    </div>
+				</div>
+			</div>
+		</div>
+{% endblock %}
