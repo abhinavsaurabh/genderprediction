@@ -1,0 +1,3 @@
+[submodule "gender-data"]
+	path = gender-data
+	url = https://github.com/studenton/gender-data
