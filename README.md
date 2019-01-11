@@ -1,11 +1,6 @@
 # gender-detect
 
-![Gender Detect Demo](https://i.imgur.com/6CVLRpW.png)
-
 Infer the gender based on the first name of a person.
-
-### Backstory
-Developed during one day codecamp organized by Yomari at [LOCUS 2016](https://www.facebook.com/events/142445032843455).
 
 ### Built With
 
@@ -41,10 +36,4 @@ python app.py
 deactivate
 ```
 
-#### Authors
-- [Amit Chaudhary](http://amitness.com)
-- [Kiran Koirala](http://twitter.com/koiralakiran01)
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
